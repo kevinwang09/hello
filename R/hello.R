@@ -19,5 +19,5 @@
 #' @export
 
 hello <- function(x) {
-  print("Hello, world!")
+  print("Is it me you are looking for?")
 }
