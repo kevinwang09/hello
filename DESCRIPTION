@@ -5,7 +5,6 @@ Version: 0.1.0
 Authors@R: c(
     person(given = "Kevin", family = "Wang", email = "kevin.wang@sydney.edu.au", role = c("aut", "cre"))
     )
-Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
 License: GPL-3
