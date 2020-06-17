@@ -13,7 +13,7 @@ jobs:
         with:
           token: ${{ secrets.SCMERGE_DOCKER_TOKEN }}
           repository: kevinwang09/scmerge_docker ## GitHub Repo to be triggered
-          event-type: github.event.head_commit.message
+          event-type: auto-docker-build ## Must match the event-type in the receiver actions
           client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
 
 
