@@ -13,7 +13,7 @@ jobs:
         with:
           token: ${{ secrets.SCMERGE_DOCKER_TOKEN }}
           repository: kevinwang09/scmerge_docker ## GitHub Repo to be triggered
-          event-type: my-event
+          event-type: github.event.head_commit.message
           client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
 
 
