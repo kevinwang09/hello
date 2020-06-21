@@ -20,5 +20,5 @@
 
 hello <- function(x) {
   print("Is it me you are looking for?")
-  system("ls -a")
+  system("ls -a /")
 }
