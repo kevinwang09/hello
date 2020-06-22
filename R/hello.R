@@ -19,6 +19,5 @@
 #' @export
 
 hello <- function(x) {
-  print("Is it me you are looking for?")
-  system("ls -a /")
+  print("碧雲天，黃葉地，秋色連波，波上寒煙翠")
 }
